@@ -17,6 +17,16 @@ st.markdown("""
     background: linear-gradient(135deg,#1e3c72,#2a5298);
 }
 
+/* Sidebar Background */
+section[data-testid="stSidebar"]{
+    background: #111827;
+}
+
+/* Sidebar Text */
+section[data-testid="stSidebar"] *{
+    color: white;
+}
+
 h1{
     color:white !important;
     text-align:center;
